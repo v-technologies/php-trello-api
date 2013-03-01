@@ -1,15 +1,14 @@
 {
-    "name": "kbsali/redmine-api",
+    "name": "v-technologies/trello-api",
     "type": "library",
-    "description": "Redmine API client",
-    "homepage": "https://github.com/kbsali/php-redmine-api",
-    "keywords": ["redmine", "api"],
+    "description": "Trello API client",
+    "homepage": "https://github.com/v-technologies/php-trello-api",
+    "keywords": ["trello","php", "api"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Kevin Saliou",
-            "email": "kevin@saliou.name",
-            "homepage": "http://kbsali.github.com"
+            "name": "Sébastien Charrier",
+            "email": "scharrier@gmail.com",
         }
     ],
     "require": {
@@ -18,7 +17,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Redmine": "lib/"
+            "Trello": "lib/"
         }
     },
     "config": {
